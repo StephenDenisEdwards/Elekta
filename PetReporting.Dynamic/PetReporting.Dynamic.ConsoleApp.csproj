@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetReporting.Dynamic.Domain\PetReporting.Dynamic.Domain.csproj" />
+    <ProjectReference Include="..\PetReporting.Dynamic.Lib\PetReporting.Dynamic.Lib.csproj" />
+  </ItemGroup>
+
+</Project>

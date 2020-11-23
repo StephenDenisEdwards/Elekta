@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetReporting", "PetReporting\PetReporting.csproj", "{F7E3B014-09FA-4848-AC18-16C41D80E827}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetReporting.Dynamic.ConsoleApp", "PetReporting.Dynamic\PetReporting.Dynamic.ConsoleApp.csproj", "{8F83BB48-9C4E-477A-B8CC-D48D0062BD06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetReporting.Dynamic.Lib", "PetReporting.Dynamic.Lib\PetReporting.Dynamic.Lib.csproj", "{074E2A68-7E43-4080-B33F-76F08C54CF53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetReporting.Dynamic.Lib.Tests", "PetReporting.Dynamic.Lib.Tests\PetReporting.Dynamic.Lib.Tests.csproj", "{57478F24-51AE-47F6-A2E3-0B9E1D25EDA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetReporting.Dynamic.Domain", "PetReporting.Dynamic.Domain\PetReporting.Dynamic.Domain.csproj", "{D932FB84-FE5A-4B07-A28D-E2739D38F47A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetReporting.Dynamic.Domain.Tests", "PetReporting.Dynamic.Domain.Tests\PetReporting.Dynamic.Domain.Tests.csproj", "{6F0DD4B5-5452-4FD7-A6E7-CB58005878BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +25,31 @@ Global
 		{F7E3B014-09FA-4848-AC18-16C41D80E827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E3B014-09FA-4848-AC18-16C41D80E827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E3B014-09FA-4848-AC18-16C41D80E827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F83BB48-9C4E-477A-B8CC-D48D0062BD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F83BB48-9C4E-477A-B8CC-D48D0062BD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F83BB48-9C4E-477A-B8CC-D48D0062BD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F83BB48-9C4E-477A-B8CC-D48D0062BD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074E2A68-7E43-4080-B33F-76F08C54CF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074E2A68-7E43-4080-B33F-76F08C54CF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074E2A68-7E43-4080-B33F-76F08C54CF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074E2A68-7E43-4080-B33F-76F08C54CF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57478F24-51AE-47F6-A2E3-0B9E1D25EDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57478F24-51AE-47F6-A2E3-0B9E1D25EDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57478F24-51AE-47F6-A2E3-0B9E1D25EDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57478F24-51AE-47F6-A2E3-0B9E1D25EDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D932FB84-FE5A-4B07-A28D-E2739D38F47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D932FB84-FE5A-4B07-A28D-E2739D38F47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D932FB84-FE5A-4B07-A28D-E2739D38F47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D932FB84-FE5A-4B07-A28D-E2739D38F47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0DD4B5-5452-4FD7-A6E7-CB58005878BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0DD4B5-5452-4FD7-A6E7-CB58005878BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0DD4B5-5452-4FD7-A6E7-CB58005878BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0DD4B5-5452-4FD7-A6E7-CB58005878BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56212108-4281-43EB-9F9D-6A2437FC40C7}
 	EndGlobalSection
 EndGlobal
